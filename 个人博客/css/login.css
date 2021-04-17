@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.box{width: 100%;height: auto;background: rgba(0,0,0,.05);}
+.header{width: 100%;height: 100px;font-size: 34px;font-family: georgia;line-height: 100px;}
+.header>strong{margin-left: 20%;}
+.main{width: 100%;height: 500px;background: url(../imgs/loginback.jpg) no-repeat center/100%;overflow: hidden;position: relative;}
+.loginjiemian{width: 25%;height: 450px;background: rgba(255,255,255,.2);margin-left: 35%;margin-top: 2%;overflow: hidden;}
+.loginjiemian>p{font-size: 20px;margin-left: 8%;margin-top: 4%;margin-bottom: 10px;color: white;}
+.loginjiemian>input{width: 80%;height: 10%; border: 1px solid rgba(255,255,255,.5);outline: none;margin-left: 8%;text-indent: 4px;}
+.loginjiemian>input:nth-of-type(3){width: 30%;height: 6%;margin-top: 15px;float: left;}
+.loginjiemian>p:first-of-type{margin-top: 5%;margin-left: 32%;font-size: 30px;}
+.loginjiemian>div{width: 20%;height: 6%;background: white;float:left;margin-top: 15px;margin-left: 18px;text-align: center;line-height: 25px;color: #07A2DA;}
+.loginjiemian>button:first-of-type{width: 20%;height: 6%;margin-top: 15px;margin-left: 18px;background: white;border: none;outline: none;background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%);color: white;border-radius: 3px;}
+.loginjiemian>button:nth-of-type(2){width: 80%;height: 10%;margin-top: 20px;margin-left: 8%;background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);border: none;color: white;outline: none;}
+.loginjiemian>button:nth-of-type(3){width: 80%;height: 10%;margin-top: 10px;margin-left: 8%;background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);border: none;color: white;outline: none;}
+.register{width: 25%;height: 450px;background: rgba(255,255,255,.2);position: absolute;top: 6%;left: 35%;display: none;}
+.register>p{font-size: 20px;margin-left: 8%;margin-top: 4%;margin-bottom: 10px;}
+.register>input{width: 80%;height: 10%; border: 1px solid rgba(255,255,255,.5);outline: none;margin-left: 8%;text-indent: 4px;}
+.register>p:first-of-type{margin-top: 5%;margin-left: 32%;font-size: 30px;}
+.register>button{width: 35%;height: 10%; margin-left: 9%;margin-top: 20px;background-image: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);border: none;color: white;outline: none;}
+span{margin-left: 16%;color: red;}
